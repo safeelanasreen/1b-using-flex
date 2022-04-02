@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    
+}
+.container{
+    width:90%;
+    height:800px;
+    margin:60px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding:8px;
+    height: 80px;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav{
+    
+        width:100%;
+        background-color: rgb(77, 71, 71);
+        height:30px;
+        padding:5px;
+    
+    
+}
+a1,a2,a3,a4{
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a1,a2,a3{
+    border-right: 1px solid black;
+}
+.body-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.content{
+    width:80%;
+    height: 1200px;
+
+    
+}
+.sidebar{
+    width:30%;
+    height:1200px;
+    background-color: grey;
+    padding:20px;
+    box-sizing: border-box;
+}
+.box-content{
+     display: flex; 
+    flex-direction: column; 
+    display:inline-block;
+    box-sizing: border-box;
+}
+.box{
+    
+        background-color: rgb(148, 143, 143);
+        width:150px;
+        height:150px;
+        margin-top:70px; 
+        margin-left:20px;
+}
+p2{
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    bottom:140px;
+    left:200px;
+    word-spacing:2px;
+    
+}
+
+.first{
+    display: inline-block;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+p1{
+    color: orangered;
+}
+#border{
+        border-bottom: 1px solid rgb(85, 84, 84);
+        border-width: 70%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+                      
+    }
+a{
+    color: rgb(170, 68, 31);
+    text-decoration: none;
+    
+}
+.sidebar-links{
+    margin: 10px;
+    
+}
+span{
+    color: chocolate;
+    font-size: 50px;
+    
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height:30px;
+    padding:10px;
+}
+span1{
+    color: chocolate;
+
+}
