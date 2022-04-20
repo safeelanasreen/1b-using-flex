@@ -49,13 +49,13 @@ nav{
 }
 .content{
     width:80%;
-    height: 1200px;
+    height: 1300px;
 
     
 }
 .sidebar{
     width:30%;
-    height:1200px;
+    height:1300px;
     background-color: grey;
     padding:20px;
     box-sizing: border-box;
